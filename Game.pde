@@ -13,6 +13,7 @@ void draw() {
   
 }
 
+
 void mousePressed() {
 
   if (start == 3) {
@@ -30,4 +31,7 @@ void keyPressed() {
     if (lasting == 0)
       start = 1;
   }
+
+void draw(){
+  ellipse(width/2,height/2,40,40);
 }
