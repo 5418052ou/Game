@@ -3,4 +3,5 @@ void setup(){
 }
 
 void draw(){
+  ellipse(width/2,height/2,40,40);
 }
